@@ -16,7 +16,7 @@ from: https://www.researchgate.net/publication/321064657_Web_mercator_and_raster
 
 A map projection is a set of functions f that convert the geographic coordinates (latitude or φ, longitude or λ) into Cartesian coordinates (X or Eastings, Y or Northings) onto a two-dimensional plane surface (Figure 2).
 
-<img src="C:\Users\Brad\Dropbox\09_Apps\VSCode\RunningNotes\Fig2Map.png" alt="Fig2Map" style="zoom:50%;" />
+<img src="Fig2Map.png" alt="Fig2Map" style="zoom:50%;" />
 
 
 
@@ -24,7 +24,7 @@ The projection adopted for all tiles is Web Mercator with WGS’84 datum.
 
 Google Maps conventions for the aforementioned parameters are as follows. All map tiles are square-shaped and equal sized, i.e., 256x256 pixels. The world is rendered in a single tile at the outer most zoom level and numbered as 0. As explained in Section 3, this layout depicts the earth on the Web Mercator projection (Figure 8) and excludes polar areas. The projection adopted for all tiles is Web Mercator with WGS’84 datum. Each tile at any zoom level k is replaced by 4 equal-sized tiles at zoom level k+1. As the size of each new tile is still 256x256 pixels, the pixel size at level k+1 is four times smaller than the pixel size at level k. The number of tiles at zoom level k is equal to 4^k, e.g., at zoom levels 3 and 17, there are 64 and 17,179,869,184 tiles, while the ground resolution is approx. 20km and 120cm per pixel, respectively (Figure 11).
 
-<img src="C:\Users\Brad\Dropbox\09_Apps\VSCode\RunningNotes\TileTable.png" alt="TileTable" style="zoom:50%;" />
+<img src="TileTable.png" alt="TileTable" style="zoom:50%;" />
 
 
 
