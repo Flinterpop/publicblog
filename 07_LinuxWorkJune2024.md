@@ -18,3 +18,6 @@ Not tried yet
 
 ---
 
+If you don't want apt looking for the Debian instll disk then comment out or delete the line in /etc/apt/sources.list
+
+---
